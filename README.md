@@ -15,5 +15,5 @@ Each time this GUI processes all files (which must be rosbags) under the directo
 
 ### Operate and Get the Results
 1. At first, one hint tells the user the software starts successfully:![start](image.png)
-2. One window will pop out. Users should select the first file under the required directory which contains all rosbags of one task. ![select directory](select_bag.png)
-3. 
+2. One window will pop out. Users should select the first file under the required directory which contains all rosbags of one task. All the files under the given directory must be rosbags. ![select directory](select_bag.png)
+In this window, all files under /media/muhanlin/Elements/R1_922_nuc will be selected after the user clicking "Open". 
