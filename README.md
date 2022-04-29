@@ -33,6 +33,7 @@ The calculation is completed while playing the rosbags. We can see the progress 
 ## Visualization
 I recommend you to use rviz or the following tool to check the path encoded in rosbags.   
 [visualization tool]: https://github.com/facontidavide/PlotJuggler
+
 ## Reference
-[1]: https://github.com/AtsushiSakai/rosbag_filter_gui   
+[1]: https://github.com/AtsushiSakai/rosbag_filter_gui      
 [2]: https://github.com/tqdm/tqdm
