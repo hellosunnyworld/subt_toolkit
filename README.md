@@ -13,5 +13,5 @@ This is a GUI interface for filtering according to topic and time as well as det
 ```
 
 ### Operate and Get the Results
-1. At first, one hint tells the user the software starts successfully:
+1. At first, one hint tells the user the software starts successfully:![start](image.png)
 2.
