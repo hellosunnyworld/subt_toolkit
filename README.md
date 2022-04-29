@@ -1,6 +1,7 @@
 # subt_toolkit
 ## Introduction
-This is a GUI interface for filtering according to topic and time as well as detecting path length and whether returning to the starting point.
+This is a GUI interface for filtering according to topic and time as well as detecting path length and whether returning to the starting point.   
+Each time this GUI processes all files (which must be rosbags) under the directory given by the user, considering these files as components of one complete running task of nuc or uav robot. This software first filters all rosbags and then computes the path length and the ending status of this one whole task.
 
 ## Usage and Function Description
 ### Installation and Run
@@ -14,4 +15,5 @@ This is a GUI interface for filtering according to topic and time as well as det
 
 ### Operate and Get the Results
 1. At first, one hint tells the user the software starts successfully:![start](image.png)
-2.
+2. One window will pop out. Users should select the first file under the required directory which contains all rosbags of one task. ![select directory](select_bag.png)
+3. 
