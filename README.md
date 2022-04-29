@@ -29,7 +29,7 @@ The program works like this repeatedly to filter out all given rosbags.
 ![finish_filter](finish_filter.PNG)   
 The calculation is completed while playing the rosbags. We can see the progress messages in the terminal, outputted by roslaunch. After completing playing one rosbag, it will take about 20 seconds to terminate the processing node and record the data. The path length and displacements of the current single bag are not only displayed in the terminal, but also stored in txt files named after this single bag under the home directory of ros. After the process work of all bags completed, the total path length and whether the robot returns to the startng point finally will be shown by message window and stored in result.txt under the home directory of ros.   
 ![compute](compute_feature.PNG)   
-![result](result.PNG)
+![result](result.PNG =100x200)
 ## Visualization
 I recommend you to use rviz or the following tool to check the path encoded in rosbags.   
 [visualization tool]: https://github.com/facontidavide/PlotJuggler
