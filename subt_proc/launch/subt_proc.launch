@@ -1,0 +1,10 @@
+<launch>
+	<arg name="file_path"/>
+	<param name="file_name" type="str" value="$(arg file_path)"/>
+	<!--<node pkg="subt_proc" name="filter" type="filter.py" output="screen"/> -->
+	<node pkg="rosbag" type="play" name="player" output="screen" args="--clock $(arg file_path)"/>
+	<!-- launch the publisher of experiment 1 in lab2 package -->
+	<node pkg="subt_proc" type="subt_proc_node" name="subt_proc_node" output="screen"/>
+</launch>
+
+

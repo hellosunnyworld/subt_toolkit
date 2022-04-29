@@ -1,0 +1,5 @@
+<launch>
+	<node pkg="subt_proc" name="filter" type="filter.py" output="screen"/>
+</launch>
+
+
