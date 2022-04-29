@@ -20,6 +20,13 @@ In this window, all the files under /media/muhanlin/Elements/R1_922_nuc will be 
 Then the program displayed the names of selected files in the terminal and start to filter them one by one. ![selected_bags](selected_bag.PNG)
 3. The second window pops out to ask the user to select the reserved topics. Drag the sliding bar to select all required topics and click "OK".    
 ![select_topic](select_topic.PNG)   
-Then the program displays the names of all selected topics and starts filtering. We can see the progress of filter from the progress bar. The format of the progress bar is: num_of_processed_msgs/total_num_of_msgs [current_elapsed_time<remaining_time, num_of_msgs/s]
-
-
+Then the program displays the names of all selected topics and starts filtering. We can see the progress of filter from the progress bar.    
+![filter](filter.PNG)   
+The format of the progress bar is: num_of_processed_msgs/total_num_of_msgs [current_elapsed_time<remaining_time, num_of_msgs/s]   
+Sometimes one error is reported, but it does not influence the result.   ![err](potential_filter_err.PNG)   
+The program works like this repeatedly to filter out all given rosbags.
+4. After completing filtering, the program starts to compute path length and the ending status automatically if the user click "OK" in the message window.    
+![finish_filter](finish_filter.PNG)   
+The calculation is completed while playing the rosbags. We can see the progress messages in the terminal, outputted by roslaunch. After completing playing one rosbag, it will take about 20 seconds to terminate the processing node and record the data. The path length and displacements of the current single bag are not only displayed in the terminal, but also stored in txt files named after this single bag under the home directory of ros. After the process work of all bags completed, the total path length and whether the robot returns to the startng point finally will be shown by message window and stored in result.txt under the home directory of ros.   
+![compute](compute_feature.PNG)   
+![result](result.PNG)
