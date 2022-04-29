@@ -42,7 +42,8 @@ The calculation is completed while playing the rosbags. We can see the progress 
 ## Visualization
 I recommend you to use rviz or the following tool to check the path encoded in rosbags.   
 [visualization tool]: https://github.com/facontidavide/PlotJuggler
-
+## Current Issue
+Still need rigorous data to verify the results of computing path length and determining whether returning to the original point. 
 ## Reference
 https://github.com/AtsushiSakai/rosbag_filter_gui      
 https://github.com/tqdm/tqdm
