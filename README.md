@@ -35,5 +35,5 @@ I recommend you to use rviz or the following tool to check the path encoded in r
 [visualization tool]: https://github.com/facontidavide/PlotJuggler
 
 ## Reference
-[1]: https://github.com/AtsushiSakai/rosbag_filter_gui      
-[2]: https://github.com/tqdm/tqdm
+https://github.com/AtsushiSakai/rosbag_filter_gui      
+https://github.com/tqdm/tqdm
