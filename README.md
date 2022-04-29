@@ -18,6 +18,8 @@ Each time this GUI processes all files (which must be rosbags) under the directo
 2. One window will pop out. Users should select the first file under the required directory which contains all rosbags of one task. All the files under the given directory must be rosbags. ![select bag](select_bag.PNG)
 In this window, all the files under /media/muhanlin/Elements/R1_922_nuc will be selected after the user clicking "Open".    
 Then the program displayed the names of selected files in the terminal and start to filter them one by one. ![selected_bags](selected_bag.PNG)
-3. The second window pops out to ask the user to select the reserved topics. Drag the sliding bar to select all required topics and click "OK". ![select_topic](select_topic.PNG)Then the program displays the names of all selected topics and starts filtering. We can see the progress of filter from the progress bar.
+3. The second window pops out to ask the user to select the reserved topics. Drag the sliding bar to select all required topics and click "OK".    
+![select_topic](select_topic.PNG)   
+Then the program displays the names of all selected topics and starts filtering. We can see the progress of filter from the progress bar. The format of the progress bar is: num_of_processed_msgs/total_num_of_msgs [current_elapsed_time<remaining_time, num_of_msgs/s]
 
 
