@@ -10,17 +10,16 @@ Each time this GUI processes all files (which must be rosbags) under the directo
 ```
   pip install pyqt5
 ```
-Note: To use this library, the python version should be python3.
-4. Compile this workspace
-5. Run the software:
+Note: To use this library, the python version should be python3.   
+4. Compile this workspace   
+5. Run the software:   
 ```
   source devel/setup.bash
-  rosrun rosbag_filter_gui rosbag_filter_gui.py
+  rosrun subt_proc_gui rosbag_filter_gui.py
 ```
 
 ### Operate and Get the Results
-1. At first, one hint tells the user the software starts successfully:![start](image.png)
-2. One window will pop out. Users should select the first file under the required directory which contains all rosbags of one task. All the files under the given directory must be rosbags. ![select bag](select_bag.PNG)
+1. After starting the program, one window will pop out for the input directory. Users should select the first file under the required directory which contains all rosbags of one task. All the files under the given directory must be rosbags. ![select bag](select_bag.PNG)
 In this window, all the files under /media/muhanlin/Elements/R1_922_nuc will be selected after the user clicking "Open".    
 Then the program displayed the names of selected files in the terminal and start to filter them one by one. ![selected_bags](selected_bag.PNG)
 3. The second window pops out to ask the user to select the reserved topics (the program may spend tens of seconds extracting all topics and drawing the window, depending on the bag size). Drag the sliding bar to select all required topics and click "OK".    
