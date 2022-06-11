@@ -115,6 +115,11 @@ include_directories(
   ${catkin_INCLUDE_DIRS}
 )
 
+catkin_install_python(PROGRAMS
+  scripts/rosbag_filter_gui.py
+  DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
+)
+
 ## Declare a C++ library
 # add_library(rosbag_filter_gui
 #   src/${PROJECT_NAME}/rosbag_filter_gui.cpp
