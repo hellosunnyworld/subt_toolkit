@@ -14,8 +14,8 @@ Note: To use this library, the python version should be python3.
 4. Compile this workspace   
 5. Run the software:   
 ```
-  source devel/setup.bash
-  rosrun subt_proc_gui rosbag_filter_gui.py
+  cd subt_proc_gui/scripts
+  python3 rosbag_filter_gui.py
 ```
 
 ### Operate and Get the Results
