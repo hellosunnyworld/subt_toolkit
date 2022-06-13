@@ -103,7 +103,7 @@ int main(int argc, char ** argv){
 
 		double timeDiff = ros::WallTime::now().toSec() - odometryTime;
 
-		if (systemInited && timeDiff > 20.0) {
+		if (timeDiff > 20.0) {
       			systemFinished = true;
     			break;
     		}
